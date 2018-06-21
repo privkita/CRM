@@ -73,7 +73,7 @@ public class CustomerDAOImpl implements CustomerDAO {
 		Session session = sessionFactory.getCurrentSession();
 		
 		// prepare query
-		Query query = null;
+		Query<Customer> query = null;
 		
 		if (theSearchName != null && theSearchName.trim().length() > 0) {
 		 
