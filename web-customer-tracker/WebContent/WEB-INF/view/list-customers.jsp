@@ -50,7 +50,7 @@
 						<td> ${tempCustomer.firstName } </td>
 						<td> ${tempCustomer.lastName } </td>
 						<td> ${tempCustomer.email } </td> 
-						<!-- display the update link -->
+						<!-- display the update and delete links -->
 						<td>
 							<a href="${updateLink }">Update</a>
 							|
